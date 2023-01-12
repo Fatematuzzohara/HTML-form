@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<div dir="ltr">
+
+</div>
+<html lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <title>html project</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+ 
+  <marquee direction="right" scrolldelay="50" behavior="alternate" loop="2"> <h1>Registration form HTML</h1></marquee><!--text will slide one side to another in the screen.-->
+<hr>
+
+ 
+    <form class="" action="mailto:admin@email.com" method="post"enctype="text/plain"><!--information will be sent to this address-->
+      <label>Your name:</label>
+      <input type="text" name="yourName" value="">
+        <!-- yourName is the label that will be showed in the sent mail to our address-->
+  
+      <br>
+      <label>Gender :</label>
+      <input type="radio" name="Gender" value="Male"><!--radio to select only one option-->
+      <label for="Male">Male</label>
+  
+      <input type="radio" name="Gender" value="Female">
+      <label for="Female">Female</label>
+      <br>
+      <label>Choose your favourite color:</label>
+      <input type="color" name="fav color" value=""><!--all colors to select from-->
+      <br>
+      <label>Your date of birth:</label>
+      <input type="date" name="dob" value=""><!-- only the date-->
+        <!--dob is the label that will be showed in the sent mail to our address -->
+      <br>
+  
+      <label>Your file submission time:</label>
+      <input type="datetime-local" name="" value=""><!-- date with time-->
+      <br>
+      <label>Email</label>
+      <input type="email" name="yourMail" value=""><!-- email verification-->
+      <br>
+      <label>Your file:</label>
+      <input type="file" name="" value=""><!-- file insertion-->
+      <br>
+      <br>
+      
+      <input type="image" name=""imageButton src="css/pic.png" width="200px" height="200px" > <!--using image as button-->
+      <br>
+      <label>Your image:</label>
+      <input type="file" name="" value=""><!-- file insertion-->
+      <br>
+      <br>
+      <label>Link</label>
+      <input type="url" name="url" value=""><!-- url verification-->
+      <br>
+      <br><label>Telephone number:</label>
+      <input type="tel" name="Telephone" maxlength="20"><!-- number verification and maxlength of this field is given "20"-->
+  
+      <br><label>Your range:</label>
+      <input type="range" name="range" value="">
+      <br>
+      <label>Password</label>
+      <input type="password" name="password" maxlength="20"><!--hides what is being typed and also maxlength given 20-->
+    
+      <br>
+     
+    <!--search tag--> <!--   
+       <label>Search here:</label>
+  <input type="search" name="search" value="">
+  <br>  
+--> 
+      
+      <label>Your message:</label>
+    <textarea name="yourMassege" rows="8" cols="30"></textarea> <!--just the starting size -->
+  
+    <br>
+    
+      <fieldset>
+  
+      <br>
+        <label>Choose your favorite TV series</label><!--checkbox to select multiple options-->
+  
+        <br> <input type="checkbox" id="Breaking bad" name="series" checked> <!--this will be checked by default-->
+  
+        <label for="Breaking bad">Breaking bad</label><br />
+  
+        <input type="checkbox" id="Friends" name="series">
+        <label for="Friends">Friends</label><br />
+  
+        <input type="checkbox" id="The big bang theory" name="series">
+        <label for="The big bang theory">The big bang theory</label>
+      </fieldset>
+      <label>Choose your favorite</label>
+      <select><!--Dropdown box-->
+        <option > HTML </option>
+        <option>CSS</option>
+        <option selected>JAVA</option><!--this will be selected by default-->
+      </select><br><br>
+      <input type="reset"><!--resets the given values-->
+      <input type="submit"><!--submits to given email at mailto-->
+      <button class="button-styled" type="button">
+        Add to favorites
+      </button>
+    
+    </form>
+  
+
+ 
+</body>
+
+</html>
